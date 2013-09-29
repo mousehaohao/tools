@@ -1,0 +1,21 @@
+# C++ 11
+Javascript 示例：
+``` javascript
+/**
+* nth element in the fibonacci series.
+* @param n >= 0
+* @return the nth element, >= 0.
+*/
+function fib(n) {
+  var a = 1, b = 1;
+  var tmp;
+  while (--n >= 0) {
+    tmp = a;
+    a += b;
+    b = tmp;
+  }
+  return a;
+}
+
+document.write(fib(10));
+```
