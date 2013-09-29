@@ -1,6 +1,6 @@
 # C++ 11
 Javascript 示例：
-``` javascript
+``` cpp
 /**
 * nth element in the fibonacci series.
 * @param n >= 0
